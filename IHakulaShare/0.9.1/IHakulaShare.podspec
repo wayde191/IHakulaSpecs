@@ -27,7 +27,7 @@ s.framework = "UIKit", "Foundation", "MessageUI", "CoreTelephony", "SystemConfig
 s.vendored_frameworks = "IHakulaShare/IHakulaShare/third/*.framework"
 
 s.library = "z", "icucore"
-s.vendored_libraries = "IHakulaShare/IHakulaShare/third/*.a"
+s.vendored_libraries = "IHakulaShare/IHakulaShare/third/libWeChatSDK.a", "IHakulaShare/IHakulaShare/third/libWeiboSDK.a"
 
 s.preserve_paths = 'IHakulaShare/IHakulaShare/third/*.h'
 s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/IHakulaShare/IHakulaShare/IHakulaShare/third' }
